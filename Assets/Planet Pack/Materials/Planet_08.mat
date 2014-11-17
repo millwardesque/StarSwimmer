@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Planet_08
+  m_Shader: {fileID: 4800000, guid: f1d90513ba055485cbc259c526271d1e, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1bf7574e1572123499f1789c1cb64a70, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normals
+        second:
+          m_Texture: {fileID: 2800000, guid: 0660aca79582849498bcb9e7d12896f7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Lights
+        second:
+          m_Texture: {fileID: 2800000, guid: 6fb8eb7320f84e642b57ce16a6491f5f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Size
+        second: .100000001
+      data:
+        first:
+          name: _Falloff
+        second: 5
+      data:
+        first:
+          name: _Transparency
+        second: 15
+      data:
+        first:
+          name: _AtmosFalloff
+        second: 2
+      data:
+        first:
+          name: _AtmosPow
+        second: 1.5
+      data:
+        first:
+          name: _FalloffPlanet
+        second: 5
+      data:
+        first:
+          name: _TransparencyPlanet
+        second: 1
+      data:
+        first:
+          name: _LightScale
+        second: -11.71
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .154411793, g: .154411793, b: .154411793, a: 1}
+      data:
+        first:
+          name: _AtmoColor
+        second: {r: .568627477, g: .509803951, b: .435294122, a: 1}
+      data:
+        first:
+          name: _AtmosNear
+        second: {r: .568627477, g: .466666669, b: .411764711, a: 1}
+      data:
+        first:
+          name: _AtmosFar
+        second: {r: .367647052, g: .179189324, b: .0378460139, a: 1}
