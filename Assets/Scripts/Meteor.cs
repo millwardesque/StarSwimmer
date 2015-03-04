@@ -21,6 +21,6 @@ public class Meteor : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		Vector3 force = direction.normalized * speed * Time.deltaTime;
-		rigidbody.AddForce(force);
+		GetComponent<Rigidbody>().AddForce(force);
 	}
 }
